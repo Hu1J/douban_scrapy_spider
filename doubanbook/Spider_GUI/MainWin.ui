@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="statusTip">
+   <string>User , Welcome :  )</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_web">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>网站选择</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>豆瓣</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>安居客</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn_crawl">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>86</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Crawl the website</string>
+    </property>
+    <property name="text">
+     <string>爬取</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_fliter">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>70</y>
+      <width>41</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>fliter</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="conditionEdit">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>100</y>
+      <width>291</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_query">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>100</y>
+      <width>86</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Query by your statment</string>
+    </property>
+    <property name="accessibleName">
+     <string/>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_delete">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>100</y>
+      <width>86</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Delete data by your statment</string>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>179</y>
+      <width>741</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>726</width>
+       <height>359</height>
+      </rect>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>-5</x>
+        <y>-9</y>
+        <width>751</width>
+        <height>381</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_crawl</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_crawl_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_query</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_query_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>138</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>645</x>
+     <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_delete</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_delete_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>751</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>714</x>
+     <y>68</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_crawl_clicked()</slot>
+  <slot>btn_query_clicked()</slot>
+  <slot>btn_delete_clicked()</slot>
+ </slots>
+</ui>

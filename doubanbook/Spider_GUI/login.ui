@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imgs/login.png</normaloff>imgs/login.png</iconset>
+  </property>
+  <widget class="QLabel" name="lbl_username">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>200</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>账号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_password">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>250</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passEdit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>250</y>
+     <width>191</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_pic">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>551</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>imgs/login_pic.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_login">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>320</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_register">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>320</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="username_Edit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>200</y>
+     <width>191</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>lbl_username</zorder>
+  <zorder>lbl_password</zorder>
+  <zorder>passEdit</zorder>
+  <zorder>btn_login</zorder>
+  <zorder>btn_register</zorder>
+  <zorder>username_Edit</zorder>
+  <zorder>lbl_pic</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>username_Edit</tabstop>
+  <tabstop>passEdit</tabstop>
+  <tabstop>btn_login</tabstop>
+  <tabstop>btn_register</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_login</sender>
+   <signal>clicked()</signal>
+   <receiver>Login</receiver>
+   <slot>btn_login_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>86</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_register</sender>
+   <signal>clicked()</signal>
+   <receiver>Login</receiver>
+   <slot>btn_register_click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>364</x>
+     <y>339</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>468</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_login_click()</slot>
+  <slot>btn_register_click()</slot>
+ </slots>
+</ui>
