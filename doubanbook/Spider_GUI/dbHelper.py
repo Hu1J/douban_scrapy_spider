@@ -50,14 +50,15 @@ class DBHelper():
     def Query_by_condition(self, dbname, condition):
         if condition:
             sql = "select * from " + dbname + " where " + condition
-            self.cursors.execute(sql)
         else:
             sql = "select * from " + dbname
-            self.cursors.execute(sql)
         
-        results = self.cursors.fetchall()
-
-        return results
+        try:
+            self.cursors.execute(sql)
+            results = self.cursors.fetchall()
+            return results
+        except:
+            return None
 
     def Delete_by_condition(self, dbname, condition):
         if condition:

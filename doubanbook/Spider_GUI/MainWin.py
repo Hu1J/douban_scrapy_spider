@@ -131,7 +131,10 @@ class Ui_MainWindow(object):
         db = DBHelper()
 
         rows = db.Query_by_condition(dbname, condition)
-
+        if rows is None:
+            QtWidgets.QMessageBox.warning(self.btn_delete, "提示", '查询失败')
+            return None
+            
         self.tableWidget.setRowCount(len(rows))
         self.tableWidget.setColumnCount(4 if dbname == 'dbbook' else 6)
 
