@@ -137,10 +137,10 @@ class Ui_MainWindow(object):
             return None
             
         self.tableWidget.setRowCount(len(rows))
-        self.tableWidget.setColumnCount(4 if dbname == 'dbbook' else 6)
+        self.tableWidget.setColumnCount(3 if dbname == 'dbbook' else 5)
 
         if dbname == 'dbbook':
-            self.tableWidget.setHorizontalHeaderLabels(['num','title','author','rate'])
+            self.tableWidget.setHorizontalHeaderLabels(['title','author','rate'])
 
             for row, i in zip(rows, range(self.tableWidget.rowCount())):
                 for column, j in zip(row, range(self.tableWidget.columnCount())):
@@ -148,7 +148,7 @@ class Ui_MainWindow(object):
                     self.tableWidget.setItem(i,j,newItem)
 
         else:
-            self.tableWidget.setHorizontalHeaderLabels(['num', 'describtion', 'structure', 
+            self.tableWidget.setHorizontalHeaderLabels(['describtion', 'structure', 
                                                         'areasize', 'selling_price', 'address'])
 
             for row, i in zip(rows, range(self.tableWidget.rowCount())):

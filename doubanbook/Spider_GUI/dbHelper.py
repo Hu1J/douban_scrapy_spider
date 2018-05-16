@@ -48,10 +48,13 @@ class DBHelper():
             return "该用户已存在"
 
     def Query_by_condition(self, dbname, condition):
-        if condition:
-            sql = "select * from " + dbname + " where " + condition
+        if dbname == "dbbook":
+            sql = "select title, author, rate from " + dbname
         else:
-            sql = "select * from " + dbname
+            sql = "select des, structure, areasize, selling_price, address from " + dbname
+            
+        if condition:
+            sql += " where " + condition
         
         try:
             self.cursors.execute(sql)
