@@ -98,7 +98,6 @@ class Ui_Login(object):
             QtWidgets.QMessageBox.information(self.btn_login, "提示", '登录成功')
             self.MWinow_UI.setupUi(self.MWindow, user_info['username'])
             self.center(self.MWindow)
-            # self.MWinow_UI.setUsername(user_info['username'])
             Login.close()
             self.MWindow.show()
         else:

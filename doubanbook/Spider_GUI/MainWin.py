@@ -14,6 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow, username = "User"):
+        self.spiderPath = "/home/guixuan/Documents/py/Python-spyder/doubanbook/doubanbook"
         self.username = username
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
@@ -107,7 +108,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusTip(statment)
 
     def btn_crawl_clicked(self, MainWindow):
-        os.chdir("/home/guixuan/Documents/py/Python-spyder/doubanbook/doubanbook")
+        os.chdir(self.spiderPath)
         print("Running at --->:  "+os.getcwd())
 
         t1 = time()
