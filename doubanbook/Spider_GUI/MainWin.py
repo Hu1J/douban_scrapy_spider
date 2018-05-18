@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("imgs/heart.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("/home/guixuan/Documents/py/Python-spyder/doubanbook/doubanbook/Spider_GUI/imgs/heart.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
