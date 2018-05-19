@@ -64,7 +64,7 @@ class DBHelper():
             return None
 
     def Delete_by_condition(self, dbname, condition):
-        if condition:
+        if not condition:
             return False
         
         sql = "delete from " + dbname + " where " + condition
