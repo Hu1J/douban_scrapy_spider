@@ -104,7 +104,7 @@ class Ui_MainWindow(object):
 
     def default_statusbar_style(self, MainWindow):
         nowTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        statment = '[ ' + str(nowTime) + '] ' + self.username + ', Welcome :  )'
+        statment = '[ ' + str(nowTime) + ' ] ' + self.username + ', Welcome :  )'
         MainWindow.setStatusTip(statment)
 
     def btn_crawl_clicked(self, MainWindow):

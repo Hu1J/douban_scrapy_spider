@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="677f9104-9d1a-4b67-afaf-30feb705694d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/doubanbook/Spider_GUI/MainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/doubanbook/Spider_GUI/MainWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubanbook/Spider_GUI/dbHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/doubanbook/Spider_GUI/dbHelper.py" afterDir="false" />
-    </list>
+    <list default="true" id="677f9104-9d1a-4b67-afaf-30feb705694d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +17,7 @@
       <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1263">
+            <state>
               <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
             </state>
           </provider>
@@ -29,7 +26,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state>
               <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -41,8 +38,8 @@
       <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/MainWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="150" column="59" selection-start-line="150" selection-start-column="59" selection-end-line="150" selection-end-column="59" />
+            <state relative-caret-position="-1848">
+              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
               <folding>
                 <element signature="e#193#202#0" expanded="true" />
               </folding>
@@ -53,8 +50,8 @@
       <file leaf-file-name="dbHelper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/dbHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state>
+              <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -102,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,13 +127,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -221,7 +218,7 @@
   <component name="ToolWindowManager">
     <frame x="60" y="0" width="1860" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21021505" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32955715" />
@@ -445,20 +442,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubanbook/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubanbook/db/dehelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanbook/main.py" />
+    <entry file="file://$PROJECT_DIR$/doubanbook/db/dehelper.py" />
     <entry file="file://$PROJECT_DIR$/doubanbook/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -466,13 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubanbook/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanbook/main.py" />
     <entry file="file://$PROJECT_DIR$/doubanbook/spiders/dbbook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -592,30 +571,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubanbook/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubanbook/db/dehelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanbook/main.py" />
+    <entry file="file://$PROJECT_DIR$/doubanbook/db/dehelper.py" />
     <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/dbHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state>
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state>
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -625,15 +592,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1263">
+        <state>
           <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doubanbook/Spider_GUI/MainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="150" column="59" selection-start-line="150" selection-start-column="59" selection-end-line="150" selection-end-column="59" />
+        <state relative-caret-position="-1848">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
           <folding>
             <element signature="e#193#202#0" expanded="true" />
           </folding>
